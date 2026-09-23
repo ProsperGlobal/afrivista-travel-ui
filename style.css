@@ -1,0 +1,682 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+background-color: rgba(20, 20, 20, 0.55);
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 50px;
+margin: 10px 60px 0px 50px;
+position: fixed;
+backdrop-filter: blur(18px);
+-webkit-backdrop-filter: blur(15px);
+z-index: 1000;
+
+}
+
+.mainlogo {
+margin: 10px 0px 0px 10px;
+height: 34.15px;
+width: 115px;
+}
+
+nav {
+display: flex;
+gap: 55px;
+margin: 15px 0px 0px 290px;
+flex-shrink: 0;
+}
+
+nav a {
+    text-decoration: none;
+color: rgba(246, 240, 235, 1);
+font-size: 16px;
+font-weight: 500;
+font-style: medium;
+
+}
+
+nav span {
+background-color: rgba(167, 108, 52, 1);
+padding: 7px 15px;
+border-radius: 30px;
+    margin-top: -8px;
+margin-left: -15px;
+}
+
+span a {
+text-decoration: none;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(246, 240, 235, 1);
+}
+
+nav span > a > img {
+    width: 16px;
+    height: 16px;
+    /* display: inline; */
+}
+
+.discover-africa {
+/* background-color: rgba(20, 25, 25, 0.5); */
+background-image: url(Backgroundsection1.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+overflow: hidden;
+height: 631px;
+position: relative;
+}
+
+.discover-parent {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+}
+
+.discover-africa small {
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(246, 240, 235, 1)
+}
+
+.discover-africa h2 {
+    margin-top: 5px;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(246, 240, 235, 1);
+}
+
+.discover-africa p {
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+letter-spacing: 0%;
+color: rgba(246, 240, 235, 1);
+width: 37.7%;
+line-height: 22px;
+margin-top: 10px;
+}
+
+.discover-africa span {
+background-color: rgba(167, 108, 52, 1);
+padding: 7px 35px 7px 15px;
+border-radius: 30px;
+margin-top: 20px;
+display: inline-block;
+margin-left: -2px;
+position: relative;
+}
+
+.discover-africa span a {
+text-decoration: none;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(246, 240, 235, 1);
+}
+
+.discover-africa span > a > img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 90px;
+}
+
+.about-us-container {
+    background-color: #E5D1C0;
+height: 660px;
+position: relative;
+}
+
+.about-us-container img:nth-child(1) {
+    width: 360px;
+    height: 423px;
+    border-radius: 30px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+    
+}
+
+.about-us-container img:nth-child(2) {
+    width: 360px;
+    height: 251px;
+    margin: 270px 0px 0px 220px;
+    border-radius: 18px;
+    position: absolute;
+    z-index: 3;
+}
+
+.about-us1  {
+text-align: left;
+margin-left: 48.5%;
+position: absolute;
+top: 30%;
+}
+
+.about-us1 h2 {
+font-weight: 500;
+font-style: Medium;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(167, 108, 52, 1);
+margin-bottom: 25px;
+}
+
+.about-us1 h3 {
+color: rgba(0, 0, 0, 1);
+font-weight: 500;
+font-style: Medium;
+font-size: 23px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.about-us-container .about-us1 > h3 > img {
+width: 122.88px;
+height: 32px;
+margin: 44.2px 0px 0px 304px;
+}
+
+.about-us-container p {
+    margin-top: 10px;
+    width: 85%;
+}
+
+.tourpackages-parent {
+    width: 100%;
+    height: 500px;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+    url("hieroglyphics.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.tourpackages-parent h2 {
+    color: rgba(246, 240, 235, 1);
+font-weight: 500;
+font-style: Medium;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-top: 120px;
+}
+
+.tour-cardboxes {
+/* border: 2px solid red; */
+display: flex;
+gap: 30px;
+margin: 38px 150px;
+}
+
+.tour-cardboxes h3 {
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+letter-spacing: 0%;
+color: rgba(246, 240, 235, 1);
+margin-top: 6px;
+}
+
+.tour-cardboxes p {
+    margin-top: 12px;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+letter-spacing: 0%;
+color: rgba(246, 240, 235, 1);
+}
+
+.tour-cardboxes-child {
+padding: 15px 9px 53px 9px;
+border-radius: 17px;
+background-color: rgba(64, 45, 26, 0.5);
+backdrop-filter: blur(12.6px);
+-webkit-backdrop-filter: blur(12.6px);
+}
+
+.tour-cardboxes-child:nth-child(1) {
+/* border: 2px solid rgb(4, 95, 26); */
+width: 25%;
+}
+
+.tour-icons {
+    background-color: rgba(167, 108, 52, 1);
+    padding: 8px 8px;
+    border-radius: 20px;
+}
+
+.tour-cardboxes-child:nth-child(2) {
+/* border: 2px solid black; */
+width: 25%;
+}
+
+.tour-cardboxes-child:nth-child(3) {
+/* border: 2px solid rgb(9, 0, 128); */
+width: 25%;
+}
+
+.tour-cardboxes-child:nth-child(4) {
+/* border: 2px solid rgb(124, 0, 128); */
+width: 25%;
+}
+
+
+
+
+
+
+.popular-destination-parent {
+    background-color: #E5D1C1;
+    text-align: center;
+}
+
+.popular-destination-parent h3 {
+    color: #a76c34;
+padding-top: 60px;
+font-weight: 500;
+font-style: Medium;
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.popular-child {
+display: flex;
+/* border: 2px solid rgba(167, 108, 52, 1); */
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+gap: 35px;
+justify-content: center;
+padding-bottom: 20px;
+}
+
+.popular-grandchild:nth-child(1) {
+    color: rgba(242, 233, 225, 1);
+border: 1.5px solid #a76c34;
+padding: 5px 45px;
+border-radius: 20px;
+background-color: #a76c34;
+}
+
+.popular-grandchild:nth-child(2) {
+    color: #a76c34;
+border: 1.5px solid #a76c34;
+padding: 5px 45px;
+border-radius: 20px;
+
+}
+
+.popular-grandchild:nth-child(3) {
+    color: #a76c34;
+border: 1.5px solid #a76c34;
+border-radius: 20px;
+padding: 5px 45px;
+
+}
+
+.popular-grandchild:nth-child(4) {
+    color: #a76c34;
+border: 1.5px solid #a76c34;
+border-radius: 20px;
+padding: 5px 45px;
+}
+
+.destination-card {
+display: flex;
+justify-content: center;
+gap: 18px;
+margin: auto 50px;
+height: 100%;
+object-fit: cover;
+margin-top: 10px;
+}
+
+.destination-card h3 {
+color: rgba(58, 38, 18, 1);
+font-weight: 600;
+font-style: SemiBold;
+text-align: left;
+margin: -45px 0px 10px 25px;
+font-size: 20px;
+letter-spacing: 0%;
+
+}
+
+.destination-card p {
+font-weight: 400;
+font-style: regular;
+font-size: 12px;
+margin: 0px 0px 15px 25px;
+text-align: left;
+letter-spacing: 0%;
+color: #3a2612;
+}
+
+.destination-card span {
+    color: #86562a;
+font-weight: 500;
+font-style: medium;
+font-size: 14px;
+margin: 0px 0px 15px 25px;
+text-align: left;
+display: block;
+}
+
+#carthage {
+    width: 316px;
+    height: 214px;
+}
+
+.destination-card-child {
+    border-radius: 18px;
+    overflow: hidden;
+background-color: #f2e9e1;
+}
+
+.destination-card-child > img {
+    object-fit: cover;
+}
+
+.destination-card-child:nth-child(1) {
+width: 25%;
+/* background-color: #f2e9e1; */
+}
+
+.destination-card-child:nth-child(2) {
+width: 25%;
+/* background-color: #f2e9e1; */
+}
+
+.destination-card-child:nth-child(3) {
+width: 25%;
+/* background-color: #f2e9e1; */
+}
+
+.destination-card-child:nth-child(4) {
+width: 25%;
+/* background-color: #f2e9e1; */
+}
+
+.Gallery {
+margin: auto 50px;
+}
+
+.Gallery h3 {
+color: #a76c34;
+font-weight: 500;
+font-style: medium;
+font-size: 36px;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.testimonial-parent {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+    url("landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 430px;
+}
+
+.testimonial-parent h3 {
+    padding-top: 70px;
+color: #f6f0eb;
+font-weight: 500;
+font-style: medium;
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.testimonial-parent h4 {
+    color: #fffefd;
+font-weight: 400;
+font-style: Regular;
+font-size: 28px;
+text-align: center;
+width: 55%;
+margin: auto auto 20px 300px;
+}
+
+.starbox {
+    display: flex;
+  justify-content: center;
+}
+
+.starrating span {
+color: #fff6e6;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+text-align: center;
+/* margin-top: 100px; */
+}
+
+.contactus-parent {
+background-color: #E5D1C1;
+position: relative;
+height: 560px;
+}
+
+.contactus-parent h3 {
+    color: #a76c34;
+font-weight: 500;
+font-style: medium;
+font-size: 36px;
+position: absolute;
+right: 18%;
+top: 20%;
+}
+
+.contactus-parent img:nth-child(1) {
+    width: 360px;
+    height: 423px;
+    border-radius: 30px;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    z-index: 1;
+    
+}
+
+.contactus-parent img:nth-child(2) {
+    width: 360px;
+    height: 251px;
+    margin: 273px 0px 0px 223px;
+    border-radius: 18px;
+    position: absolute;
+    z-index: 3;
+}
+
+.contact-form {
+    background-color: #F8F1EB;
+    border-radius: 12px;
+    padding: 20px;
+    position: absolute;
+    right: 10.6%;
+    top: 33%;
+}
+
+.name-row {
+    display: flex;
+    gap: 12px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+        width: 100%;
+    height: 30px;
+    border: 1px solid #C8CDD3;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-size: 11px;
+    color: rgba(58, 38, 18, 1);
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+}
+
+.country {
+    display: block;
+}
+
+.contact-section {
+    background-color: #E9D4C1;
+    padding: 12px 18px 20px 18px;
+}
+
+.contact-section h2 {
+    color: #A8672E;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    background-color: #F8F1EB;
+    border-radius: 12px;
+    padding: 20px;
+font-family: "Playfair Display", serif;
+
+}
+
+.name-row {
+    display: flex;
+    gap: 12px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    color: #3a2612;
+    font-size: 9px;
+    margin-bottom: 4px;
+}
+
+.form-group input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #C8CDD3;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-size: 11px;
+}
+
+.email label {
+      display: block;
+    color: #3a2612;
+    font-size: 9px;
+    margin-bottom: 4px;
+}
+
+.email input {
+      width: 100%;
+    height: 30px;
+    border: 1px solid #C8CDD3;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-size: 11px;
+}
+
+.countryorigin {
+    margin-top: 10px;
+    display: block;
+}
+
+.countryorigin label {
+      display: block;
+    color: #3a2612;
+    font-size: 9px;
+    margin-bottom: 4px;
+}
+
+.countryorigin input {
+      width: 100%;
+    height: 30px;
+    border: 1px solid #C8CDD3;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-size: 11px;
+
+}
+
+
+.form-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-us5 {
+    background-color: #a76c34;
+    color: white;
+    text-decoration: none;
+    font-size: 9px;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+
+.privacy {
+    color: #a76c34;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+footer {
+    background-image: url(mapofafrica.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
