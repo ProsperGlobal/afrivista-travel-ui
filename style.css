@@ -673,10 +673,104 @@ font-family: "Playfair Display", serif;
 }
 
 footer {
-    background-image: url(mapofafrica.png);
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: center;
+background-image:
+linear-gradient(rgba(167, 108, 52, 0.7), rgba(167, 108, 52, 0.5)),
+    url("mapofafrica.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 430px;
+    padding-top: 80px;
 }
 
+.footer-lists {
+    display: flex;
+    flex-shrink: 0;
+    gap: 90px;
+}
+
+.footer-lists-child a {
+    display: block;
+}
+
+.footer-lists a {
+    text-decoration: none;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #3a2612;
+line-height: 30px;
+text-align: left;
+}
+
+.footer-lists-child:nth-child(1) {
+    margin-left: 60px;
+}
+
+.footer-lists-child:nth-child(1) > div {
+color: #3a2612;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 10px;
+text-align: left;
+margin-bottom: 10px;
+}
+
+
+.footer-lists-child span {
+font-weight: 500;
+font-style: medium;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #3a2612;
+text-align: left;
+display: block;
+margin-bottom: 20px;
+}
+
+.labelemail {
+  color: #3a2612;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+
+}
+
+.enteremail {
+    display: block;
+    background-color: transparent;
+    padding: 10px 10px;
+    margin-top: 2px;
+    border: 2px solid #3a2612;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.email-button {
+ background-color: rgba(167, 108, 52, 1);
+ border-top-right-radius: 15px;
+ border-bottom-right-radius: 15px;
+ padding: 7.6px 25px;
+ top: 27.4%;
+ left: 75%;
+ position: absolute;
+}
+
+
+input::placeholder {
+    font-family: "Playfair Display", sans-serif;
+color: #3a2612;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+display: block;
+}
+
+
+.footer-lists-child:last-child {
+position: relative;
+}
