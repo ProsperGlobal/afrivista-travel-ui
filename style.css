@@ -48,7 +48,6 @@ color: rgba(246, 240, 235, 1);
 font-size: 16px;
 font-weight: 500;
 font-style: medium;
-
 }
 
 nav span {
@@ -760,7 +759,6 @@ font-size: 20px;
  position: absolute;
 }
 
-
 input::placeholder {
     font-family: "Playfair Display", sans-serif;
 color: #3a2612;
@@ -770,7 +768,77 @@ font-size: 16px;
 display: block;
 }
 
-
 .footer-lists-child:last-child {
 position: relative;
+}
+
+@media (min-width: 1920px) {
+
+    header {
+        max-width: 1800px;
+        width: calc(100% - 100px);
+        margin: 10px auto 0 auto;
+        left: 0;
+        right: 0;
+    }
+
+    nav {
+        margin-left: auto;
+    }
+
+
+    .discover-parent {
+        left: 8%;
+        max-width: 1700px;
+    }
+
+    .discover-africa p {
+        width: 35%;
+    }
+
+
+    .about-us-container {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .about-us1 {
+        margin-left: 50%;
+    }
+
+
+    .tour-cardboxes {
+        max-width: 1600px;
+        margin: 38px auto;
+    }
+
+
+    .destination-card {
+        max-width: 1600px;
+        margin: 10px auto 0 auto;
+    }
+
+
+    .Gallery {
+        max-width: 1600px;
+        margin: auto;
+    }
+
+
+    .testimonial-parent h4 {
+        max-width: 1000px;
+        width: 55%;
+        margin: 0 auto 20px auto;
+    }
+
+
+    .footer-lists {
+        max-width: 1700px;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .footer-lists-child:nth-child(1) {
+        margin-left: 0;
+    }
 }
